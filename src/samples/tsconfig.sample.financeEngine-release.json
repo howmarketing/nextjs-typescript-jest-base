@@ -1,0 +1,155 @@
+{
+	"compilerOptions": {
+		"target": "ES5",
+		"lib": [
+			"DOM",
+			"DOM.Iterable",
+			"ESNEXT",
+		],
+		"allowJs": true,
+		"skipLibCheck": true,
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"noEmit": true,
+		"esModuleInterop": true,
+		"module": "ESNext",
+		"moduleResolution": "Node",
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"jsx": "react-jsx",
+		"incremental": true,
+		"baseUrl": ".",
+		"paths": {
+			"@/*": [
+				"src/*"
+			],
+			"~/*": [
+				"src/*"
+			],
+			"RealPath/*": [
+				"src/*"
+			],
+			"@RealPath/*": [
+				"src/*"
+			],
+			"home/*": [
+				"src/*"
+			],
+			"Home/*": [
+				"src/*"
+			],
+			"@home/*": [
+				"src/*"
+			],
+			"basePath/*": [
+				"src/*"
+			],
+			"BasePath/*": [
+				"src/*"
+			],
+			"@basePath/*": [
+				"src/*"
+			],
+			"components/*": [
+				"src/components/*"
+			],
+			"Components/*": [
+				"src/components/*"
+			],
+			"@components/*": [
+				"src/components/*"
+			],
+			"pageComponent/*": [
+				"src/components/pages/*"
+			],
+			"PageComponent/*": [
+				"src/components/pages/*"
+			],
+			"@pageComponent/*": [
+				"src/components/pages/*"
+			],
+			"private/*": [
+				"src/components/pages/private/*"
+			],
+			"Private/*": [
+				"src/components/pages/private/*"
+			],
+			"@private/*": [
+				"src/components/pages/private/*"
+			],
+			"pages/*": [
+				"src/pages/*"
+			],
+			"Pages/*": [
+				"src/pages/*"
+			],
+			"@pages/*": [
+				"src/pages/*"
+			],
+			"samples/*": [
+				"src/samples/*"
+			],
+			"Samples/*": [
+				"src/samples/*"
+			],
+			"@samples/*": [
+				"src/samples/*"
+			],
+			"sass/*": [
+				"src/sass/*"
+			],
+			"Sass/*": [
+				"src/sass/*"
+			],
+			"@sass/*": [
+				"src/sass/*"
+			],
+			"shared/*": [
+				"src/shared/*"
+			],
+			"Shared/*": [
+				"src/shared/*"
+			],
+			"@shared/*": [
+				"src/shared/*"
+			],
+			"componentsShared/*": [
+				"src/shared/components/*"
+			],
+			"ComponentsShared/*": [
+				"src/shared/components/*"
+			],
+			"@componentsShared/*": [
+				"src/shared/components/*"
+			],
+			"styles/*": [
+				"src/styles/*"
+			],
+			"Styles/*": [
+				"src/styles/*"
+			],
+			"@styles/*": [
+				"src/styles/*"
+			],
+			"utils/*": [
+				"src/utils/*"
+			],
+			"Utils/*": [
+				"src/utils/*"
+			],
+			"@utils/*": [
+				"src/utils/*"
+			],
+		}
+	},
+	"include": [
+		"next-env.d.ts",
+		"src/**/*.ts",
+		"src/**/*.tsx"
+	],
+	"exclude": [
+		"node_modules/"
+	],
+	"allowSyntheticDefaultImports": true,
+	"noFallthroughCasesInSwitch": true,
+}

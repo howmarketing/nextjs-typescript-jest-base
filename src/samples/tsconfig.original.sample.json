@@ -18,46 +18,34 @@
 		"isolatedModules": true,
 		"jsx": "preserve",
 		"incremental": true,
-		"baseUrl": ".",
+		"baseUrl": "src",
 		"paths": {
-			"components/*": [
-				"src/components/*"
+			"@components": [
+				"components/*"
 			],
-			"pageComponent/*": [
-				"src/components/pages/*"
+			"@pages": [
+				"pages/*"
 			],
-			"private/*": [
-				"src/components/pages/private/*"
+			"@sass": [
+				"sass/*"
 			],
-			"pages/*": [
-				"src/pages/*"
+			"@shared": [
+				"shared/*"
 			],
-			"samples/*": [
-				"src/samples/*"
+			"@styles": [
+				"styles/*"
 			],
-			"sass/*": [
-				"src/sass/*"
-			],
-			"shared/*": [
-				"src/shared/*"
-			],
-			"componentsShared/*": [
-				"src/shared/components/*"
-			],
-			"styles/*": [
-				"src/styles/*"
-			],
-			"utils/*": [
-				"src/utils/*"
+			"@utils": [
+				"utils/*"
 			]
 		}
 	},
 	"include": [
 		"next-env.d.ts",
-		"src/**/*.ts",
-		"src/**/*.tsx"
+		"**/*.ts",
+		"**/*.tsx"
 	],
 	"exclude": [
-		"node_modules/"
+		"node_modules"
 	]
 }
